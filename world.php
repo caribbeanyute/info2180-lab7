@@ -1,7 +1,7 @@
 <?php
 $host = getenv('IP');
-$username = 'lab7_user';
-$password = '';
+$username = 'lab7_app';
+$password = 'app_password';
 $dbname = 'world';
 
 $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
