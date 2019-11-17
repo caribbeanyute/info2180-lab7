@@ -8,24 +8,27 @@
 		<link href="world.css" type="text/css" rel="stylesheet" />
 
 		<!-- you write this -->
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 		<script src="world.js" type="text/javascript"></script>
 	</head>
 
 	<body>
 		<header>
-			<h1>World Database Lookup</h1>
+			<div id=logo>World Database Lookup</div>
 		</header>
-
+		<div class="earth"></div>
 		<main>
 			<div id="controls">
 				<label for="country">Country:</label>
 				<input id="country" type="search" name="country" placeholder="Enter country name" />
 				<button id="lookup">Lookup</button>
+				<button id="lookup-cit">Lookup Cities</button>
 			</div>
 			
 			<div id="result">
 				<!-- countries will appear here -->
 			</div>
+		
 		</main>
 
 	</body>
