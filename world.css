@@ -11,6 +11,7 @@ body {
 
 #logo {
     color: #48B6C3;
+    width :100%;
     font-family: 'Indie Flower', cursive;
     font-size: 2.5em;
     letter-spacing: 2px;
@@ -60,4 +61,28 @@ body {
    to {
        background-position: -396px center;
    }
+}
+
+
+#countrytable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#countrytable td, #countrytable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#countrytable tr:nth-child(even){background-color: #f2f2f2;}
+
+#countrytable tr:hover {background-color: #ddd;}
+
+#countrytable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 }

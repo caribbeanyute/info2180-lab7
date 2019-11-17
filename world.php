@@ -27,7 +27,7 @@ if($_GET["context"]==="cities"){
 //SELECT cities.name,district,cities.population FROM cities INNER JOIN countries on cities.country_code=countries.code WHERE countries.name ='Jamaica';
 function cities_table($array){
     // start table
-    $html = '<table>';
+    $html = '<table id="countrytable">';
     // header row
     $html .= '<tr>';
     $html.= "    <th>Name</th>\n"; 
@@ -52,7 +52,7 @@ function cities_table($array){
 
 function build_table($array){
     // start table
-    $html = '<table>';
+    $html = '<table id="countrytable">';
     // header row
     $html .= '<tr>';
     $html.= "    <th>Name</th>\n"; 
